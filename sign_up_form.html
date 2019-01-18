@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sing_up</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<style>
+	body{
+		background-image: url("sign_up_background_image2.jpeg");
+	}
+</style>
+</head>
+<body>
+		<div class="container">
+		<h1><strong><label style="color:white"><em>Sign Up Form</em></label></strong></h1>
+
+<form action="sign_up_process.php" method="post" enctype="multipart/form-data">
+	
+<div class="col-lg-4 col-xs-12">		
+
+	<div class="form-group">
+	<label style="color: white"><em>Username</em></label>
+	<input type="text" placeholder="enter_username" name="username" class="form-control">
+	</div>
+	<div class="form-group">
+		<label style="color: white"><em>Password</em></label>
+	<input type="password" placeholder="enter_password" name="password" class="form-control">
+	</div>
+	<div class="form-group">
+	<label style="color: white"><em>Re-password</em></label>
+	<input type="password" placeholder="enter_re_password" name="re_password" class="form-control">
+	</div>
+	<div class="form-group">
+		<label style="color: white"><em>Name</em></label>
+	<input type="text" placeholder="enter_full_name" name="name" class="form-control">
+</div>
+	<div class="form-group">
+		<label style="color: white"><em>Upload profile image</em></label>
+	<input type="file" placeholder="enter_full_name" name="file" class="form-control">
+</div>
+
+	<div class="form-group">
+		<label style="color: white"><em>Age</em></label>
+		<input type="Number" placeholder="enter_age" name="age" class="form-control">
+	</div>
+	<div class="form-group">
+		<label style="color: white"><em>Gender</em></label>
+			<select name="gender" class="form-control">
+		<option name="gender" value="none">None</option>
+		<option name="gender" value="male">Male</option>
+		<option name="gender" value="female">Female</option>
+		<option name="gender" value="other">other</option>
+	</select></div>
+	<div class="form-group">
+		<label style="color: white"><em>E-mail</em></label>
+		<input type="mail" placeholder="enter_mail" name="mail" class="form-control"></div>
+	<div class="form-group">
+		<label style="color: white"><em>Contact Number</em></label>
+		<input type="Number" placeholder="enter_contact_no" name="contact" class="form-control"></div>
+	<div class="form-group">
+		<input type="submit" class="btn btn-success" name="" value="Sign up"></div>
+
+</div>
+
+</form>
+</div>
+
+</body>
+</html>
